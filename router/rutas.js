@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     //res.send('Hello Worldddddddd!')
-    res.render("index", {titulo: "TITLE DINAMIC", footer: "FOOTER DINAMIC"})
+    res.render("index", {})
 })
 
 router.get('/servicio', (req, res) => {
